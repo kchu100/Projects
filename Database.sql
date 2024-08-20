@@ -37,9 +37,7 @@ Legendaries as do have similar feel to Legendaries but can not have random rolle
 --====================================================================
 Guardian(Guardian_PK, Class﻿Name)
 WeaponType(WT_PK, Name)
-Weapon(Weapon_PK, Name, WT_FK, Rarity, Intrinsic, RPM, Slot_FK, Ammo_FK)
-Slot(Slot_PK, Name)
-AmmoType(Ammo_PK, Name)
+Weapon(Weapon_PK, Name, WT_FK, Element, RPM, Slot, Ammo)
 
 Subclass(SC_PK, Guardian_FK, Name, Element)
 JumpAbility(JA_PK, G_FK, Name, Description)
