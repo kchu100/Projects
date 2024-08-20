@@ -63,21 +63,21 @@ insert into Subclass values (12, 3, 'Behemoth', 'Stasis');
 --WeaponType
 --===================================
 insert into WeaponType values(1, 'Handcannon');
-insert into WeaponType values(2, 'Pulse Rifles');
-insert into WeaponType values(3, 'Auto Rifles');
-insert into WeaponType values(4, 'Scout Rifles');
-insert into WeaponType values(5, 'Submachine Guns');
-insert into WeaponType values(6, 'Sidearms');
-insert into WeaponType values(7, 'Bows');
-insert into WeaponType values(8, 'Shotguns');
-insert into WeaponType values(9, 'Sniper Rifles');
-insert into WeaponType values(10, 'Fusion Rifles');
-insert into WeaponType values(11, 'Rocket Launchers');
-insert into WeaponType values(12, 'Machine Guns');
-insert into WeaponType values(13, 'Linear Fusion Rifles');
-insert into WeaponType values(14, 'Trace Rifles');
-insert into WeaponType values(15, 'Swords');
-insert into WeaponType values(16, 'Grenade Launchers');
+insert into WeaponType values(2, 'Pulse Rifle');
+insert into WeaponType values(3, 'Auto Rifle');
+insert into WeaponType values(4, 'Scout Rifle');
+insert into WeaponType values(5, 'Submachine Gun');
+insert into WeaponType values(6, 'Sidearm');
+insert into WeaponType values(7, 'Bow');
+insert into WeaponType values(8, 'Shotgun');
+insert into WeaponType values(9, 'Sniper Rifle');
+insert into WeaponType values(10, 'Fusion Rifle');
+insert into WeaponType values(11, 'Rocket Launcher');
+insert into WeaponType values(12, 'Machine Gun');
+insert into WeaponType values(13, 'Linear Fusion Rifle');
+insert into WeaponType values(14, 'Trace Rifle');
+insert into WeaponType values(15, 'Sword');
+insert into WeaponType values(16, 'Grenade Launcher');
 --===================================
 --Weapon
 --===================================
