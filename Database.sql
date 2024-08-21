@@ -8,7 +8,6 @@ Weapon(Name, id, Element, Slot)
 Subclass(id, Name, Element)
 --====================================================================
 --Data Definition Language (DDL)======================================
---====================================================================
 create table Guardian(
 id primary key,
 ClassName varchar(30)
@@ -78,39 +77,59 @@ insert into WeaponType values(13, 'Linear Fusion Rifle');
 insert into WeaponType values(14, 'Trace Rifle');
 insert into WeaponType values(15, 'Sword');
 insert into WeaponType values(16, 'Grenade Launcher');
+insert into WeaponType values(17, 'Glaive');
 --===================================
 --Weapon
 --===================================
-insert into Weapon values("Traveler's Chosen", 6, NULL, "Kinetic");
-insert into Weapon values("False Promises", 3, NULL, "Kinetic");
-insert into Weapon values("The Forward Path", 3, NULL, "Kinetic");
-insert into Weapon values("Whispering Slab", 7, NULL, "Kinetic");
-insert into Weapon values("Cold Denial", 2, NULL, "Kinetic");
-insert into Weapon values("Ikelos_HC_V1.0.2", 1, "Void", "Energy");
-insert into Weapon values("Nature of the Beast", 1, "Arc", "Energy");
-insert into Weapon values("The Fool's Remedy", 6, "Solar", "Energy");
-insert into Weapon values("Death Adder", 5, "Solar", "Energy");
-insert into Weapon values("Ikelos_SMG_V1.0.2", 5, "Arc", "Energy");
-insert into Weapon values("The Scholar", 4, NULL, "Kinetic");
-insert into Weapon values("The Summoner", 3, "Solar", "Energy");
-insert into Weapon values("Khvostov 7G-02", 3, NULL, "Kinetic");
-insert into Weapon values("Sorrow MG2", 5, "Arc", "Energy");
-insert into Weapon values("Suros Throwback", 3, NULL, "Kinetic");
-insert into Weapon values("Minuet-12", 1, "Solar", "Energy");
-insert into Weapon values("Sea Scorpion-1SR", 4, "Arc", "Energy");
-insert into Weapon values("Sondok-C", 5, NULL, "Kinetic");
-insert into Weapon values("Lionheart", 3, NULL, "Kinetic");
-insert into Weapon values("Witherhoard", 16, NULL, "Kinetic");
-insert into Weapon values("Ruinous Effigy", 14, "Void", "Energy");
-insert into Weapon values("Hollow Words", 10, "Arc", "Energy");
-insert into Weapon values("Truthteller", 16, "Void", "Energy");
-insert into Weapon values("First In, Last Out", 8, "Arc", "Energy");
-insert into Weapon values("Ikelos_SG_V1.0.2", 8, "Solar", "Energy");
-insert into Weapon values("Ikelos_SR_V1.0.2", 9, "Solar", "Energy");
-insert into Weapon values("Widow's Bite", 9, "Solar", "Energy");
+insert into Weapon values("Warden's Law", 1, NULL, "Kinetic");
+insert into Weapon values("Pre Astyanax IV", 7, "Solar", "Energy");
+insert into Weapon values("Undercurrent", 16, "Arc", "Energy");
+insert into Weapon values("Uzume RR4", 9, "Solar", "Energy");
+insert into Weapon values("The Slammer", 15, "Stasis", "Power");
+insert into Weapon values("Wild Style", 16, "Solar", "Energy");
+insert into Weapon values("Scintillation", 13, "Strand", "Power");
+insert into Weapon values("The Palindrome", 1, "Void", "Energy");
+insert into Weapon values("Shadow Price", 3, "Arc", "Energy");
+insert into Weapon values("Plug One.1", 10, "Arc", "Energy");
+insert into Weapon values("The Comedian", 8, "Void", "Energy");
+insert into Weapon values("The Hothead", 11, "Arc", "Power");
+insert into Weapon values("Duty Bound", 3, NULL, "Kinetic");
+insert into Weapon values("Silicon Neuroma", 9, NULL, "Kinetic");
+insert into Weapon values("D.F.A", 1, NULL, "Kinetic");
+insert into Weapon values("Horror's Least", 2, "Arc", "Energy");
+insert into Weapon values("The Militia's Birthright", 16, NULL, "Kinetic");
+insert into Weapon values("Mindbender's Ambition", 8, "Solar", "Energy");
+insert into Weapon values("Hung Jury SR4", 4, NULL, "Kinetic");
+insert into Weapon values("Wendigo GL3", 16, "Arc", "Power");
+insert into Weapon values("Braytech Osprey", 11, "Void", "Power");
+insert into Weapon values("The Swarm", 12, "Arc", "Power");
+insert into Weapon values("Buzzard", 6, NULL, "Kinetic");
+insert into Weapon values("Loaded Question", 10, "Arc", "Energy");
+
+insert into Weapon values("Tomorrow's Answer", 11, "Void", "Power");
+insert into Weapon values("Incisor", 14, "Strand", "Kinetic");
+insert into Weapon values("The Prophet", 4, "Stasis", "Kinetic");
+insert into Weapon values("Shayura's Wrath", 5, "Void", "Energy");
 insert into Weapon values("Astral Horizon", 8, NULL, "Kinetic");
 insert into Weapon values("Eye of Sol", 9,  NULL, "Kinetic");
 insert into Weapon values("Exile's Curse", 10,  "Arc", "Energy");
+insert into Weapon values("The Scholar", 4, NULL, "Kinetic");
+insert into Weapon values("The Summoner", 3, "Solar", "Energy");
+insert into Weapon values("Igneous Hammer", 1, "Solar", "Energy");
+insert into Weapon values("Exalted Truth", 1, "Void", "Energy");
+insert into Weapon values("The Messenger", 2, NULL, "Kinetic");
+insert into Weapon values("Reed's Regret", 13, "Stasis", "Power");
+insert into Weapon values("Cataphract GL3", 16, "Strand", "Power");
+insert into Weapon values("Unwavering Duty", 12, "Solar", "Power");
+insert into Weapon values("Sola's Scar", 15, "Solar", "Power");
+insert into Weapon values("Unexpected Resurgence", 17, "Arc", "Energy");
+insert into Weapon values("The Immortal", 5, "Strand", "Kinetic");
+insert into Weapon values("Whistler's Whim", 7, NULL, "Kinetic");
+insert into Weapon values("The Inquisitor", 8, "Arc", "Energy");
+insert into Weapon values("Forgiveness", 6, "Arc", "Energy");
+insert into Weapon values("Burden of Guilt", 10, "Stasis", "Kinetic");
+insert into Weapon values("Aisha's Embrace", 4, "Void", "Energy");
+insert into Weapon values("Aisha's Care", 2, "Strand", "Kinetic");
 --====================================================================
 --DML SQL Queries=====================================================
 --====================================================================
