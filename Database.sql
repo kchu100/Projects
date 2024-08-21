@@ -152,7 +152,7 @@ insert into Weapon values("Burden of Guilt", 10, "Stasis", "Kinetic");
 insert into Weapon values("Aisha's Embrace", 4, "Void", "Energy");
 insert into Weapon values("Aisha's Care", 2, "Strand", "Kinetic");
 --====================================================================
---DML SQL Queries=====================================================
+--DQL SQL Queries=====================================================
 --====================================================================
 --shows what Guardian class corresponds to what subclass (join with 2 tables)
 select G.ClassName as Class, S.Name as Name, S.Element as Element
