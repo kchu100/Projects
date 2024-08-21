@@ -81,6 +81,20 @@ insert into WeaponType values(17, 'Glaive');
 --===================================
 --Weapon
 --===================================
+insert into Weapon values("Smite of Merain", 2, NULL, "Kinetic");
+insert into Weapon values("Doom of Chelchis", 4, "Void", "Energy");
+insert into Weapon values("Zaouli's Bane", 1, "Solar", "Energy");
+insert into Weapon values("Midha's Reckoning", 10, "Arc", "Energy");
+insert into Weapon values("Defiance of Yasmin", 9, NULL, "Kinetic");
+insert into Weapon values("Quillim's Terminus", 12, "Stasis", "Power");
+
+insert into Weapon values("Acasia's Dejection", 14, "Solar", "Energy");
+insert into Weapon values("Mykel's Reverence", 6, "Strand", "Kinetic");
+insert into Weapon values("Nessa's Oblation", 8, "Void", "Energy");
+insert into Weapon values("Briar's Contempt", 13, "Solar", "Power");
+insert into Weapon values("Koraxis's Distress", 16, "Strand", "Power");
+insert into Weapon values("Rufus's Fury", 3, "Strand", "Kinetic");
+
 insert into Weapon values("Summum Bonum", 15, "Arc", "Power");
 insert into Weapon values("Forthcoming Deviance", 17, "Void", "Energy");
 insert into Weapon values("Critical Anomaly", 9, "Stasis", "Kinetic");
