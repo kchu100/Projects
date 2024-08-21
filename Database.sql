@@ -45,20 +45,20 @@ insert into Guardian values (3, 'Titan');
 --===================================
 --Subclass
 --===================================
-insert into Subclass values (1, 1, 'Dawnblade', 'Solar');
-insert into Subclass values (2, 1, 'Stormcaller', 'Arc');
-insert into Subclass values (3, 1, 'Voidwalker', 'Void');
-insert into Subclass values (4, 1, 'Shadebinder', 'Stasis');
+insert into Subclass values (1, 'Dawnblade', 'Solar');
+insert into Subclass values (1, 'Stormcaller', 'Arc');
+insert into Subclass values (1, 'Voidwalker', 'Void');
+insert into Subclass values (1, 'Shadebinder', 'Stasis');
 
-insert into Subclass values (5, 2, 'Gunslinger', 'Solar');
-insert into Subclass values (6, 2, 'Arcstrider', 'Arc');
-insert into Subclass values (7, 2, 'Nightstalker', 'Void');
-insert into Subclass values (8, 2, 'Revenant', 'Stasis');
+insert into Subclass values (2, 'Gunslinger', 'Solar');
+insert into Subclass values (2, 'Arcstrider', 'Arc');
+insert into Subclass values (2, 'Nightstalker', 'Void');
+insert into Subclass values (2, 'Revenant', 'Stasis');
 
-insert into Subclass values (9, 3, 'Sunbeaker', 'Solar');
-insert into Subclass values (10, 3, 'Striker', 'Arc');
-insert into Subclass values (11, 3, 'Sentinel', 'Void');
-insert into Subclass values (12, 3, 'Behemoth', 'Stasis');
+insert into Subclass values (3, 'Sunbeaker', 'Solar');
+insert into Subclass values (3, 'Striker', 'Arc');
+insert into Subclass values (3, 'Sentinel', 'Void');
+insert into Subclass values (3, 'Behemoth', 'Stasis');
 --===================================
 --WeaponType
 --===================================
