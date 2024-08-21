@@ -81,6 +81,13 @@ insert into WeaponType values(17, 'Glaive');
 --===================================
 --Weapon
 --===================================
+insert into Weapon values("Summum Bonum", 15, "Arc", "Power");
+insert into Weapon values("Forthcoming Deviance", 17, "Void", "Energy");
+insert into Weapon values("Critical Anomaly", 9, "Stasis", "Kinetic");
+insert into Weapon values("Non-Denouement", 7, "Arc", "Energy");
+insert into Weapon values("Nullify", 2, "Solar", "Energy");
+insert into Weapon values("Imminence", 5, "Strand", "Kinetic");
+
 insert into Weapon values("Warden's Law", 1, NULL, "Kinetic");
 insert into Weapon values("Pre Astyanax IV", 7, "Solar", "Energy");
 insert into Weapon values("Undercurrent", 16, "Arc", "Energy");
